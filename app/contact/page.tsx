@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import { PageContainer } from '@/components/ui/PageContainer';
 import { Section } from '@/components/ui/Section';
@@ -15,7 +16,9 @@ export default function ContactPage() {
         title="Contact / RFQ"
         subtitle="Tell us what you are looking for and include any specs. We will revert with pricing, delivery, and alternates if needed."
       >
-        <ContactForm />
+        <Suspense fallback={<p className="text-sm text-slate-500">Loading enquiry form…</p>}>
+          <ContactForm />
+        </Suspense>
       </Section>
     </PageContainer>
   );
