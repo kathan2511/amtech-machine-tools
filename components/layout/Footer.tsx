@@ -18,8 +18,8 @@ export function Footer() {
           <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Amtech Machine Tools</p>
           <p className="mt-2 text-lg font-semibold text-slate-900">Ahmedabad, Gujarat</p>
           <p className="mt-4 text-sm text-slate-600">
-            24, Orbit Industrial Estate,<br />
-            S. P. Ring Road, Ahmedabad 382415
+          4338, Amar House, Kadia Kui, Relief Road<br />
+          Ahmedabad - 380001, Gujarat, India
           </p>
           <p className="mt-4 text-sm text-slate-600">Phone / WhatsApp: +91 98250 00000</p>
           <p className="text-sm text-slate-600">Email: sales@amtechmachinetools.in</p>
